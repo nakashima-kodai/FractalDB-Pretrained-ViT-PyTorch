@@ -1,0 +1,6 @@
+# @package _group_
+_target_: timm.optim.create_optimizer
+args:
+  opt: adamw
+  lr: 5.0e-4
+  weight_decay: 0.05

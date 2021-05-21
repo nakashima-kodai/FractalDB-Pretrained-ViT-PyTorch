@@ -1,0 +1,13 @@
+# @package _group_
+_target_: timm.scheduler.create_scheduler
+args:
+  epochs: ${epochs}
+  sched: cosine
+  lr_cycle_mul: 1.0
+  min_lr: 1.0e-5
+  decay_rate: 0.1
+  warmup_lr: 1.0e-6
+  warmup_epochs: 5
+  lr_cycle_limit: 1
+  seed: ${seed}
+  cooldown_epochs: 10

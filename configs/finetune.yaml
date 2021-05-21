@@ -1,0 +1,13 @@
+seed: 42
+epochs: 1000
+resume: null
+ckpt: null
+print_iter_freq: 10
+save_epoch_freq: 100
+
+
+defaults:
+  - data: cifar10
+  - model: deit_tiny_patch16_224
+  - optim: adamw
+  - scheduler: cosine

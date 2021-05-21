@@ -1,0 +1,12 @@
+seed: 42
+epochs: 300
+resume: null
+print_iter_freq: 10
+save_epoch_freq: 50
+
+
+defaults:
+  - data: fractal1k
+  - model: deit_tiny_patch16_224
+  - optim: adamw
+  - scheduler: cosine
