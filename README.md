@@ -5,18 +5,21 @@ We clarify that FractalDB pre-trained ViT can achieve a competitive validation a
 ![acc_transition](figures/acc_transition.png)
 
 
-# Model Zoo
-Comming soon...
 
 # Usage
 ## Pre-training
-
+Run the code ```pretrain.py``` to create a FractalDB pre-trained model.
 ```
 python pretrain.py data={dataset name for pre-training} data.set.root={/path/to/dataset}
 ```
+The pre-trained models will be shared within the next week.
+
 
 ## Fine-tuning
-
+Run the code ```finetune.py``` to additionally train any image datasets.
+```
+python finetune.py data={dataset name for fine-funing} data.set.root={/path/to/dataset}
+```
 
 # Citation
 ```
