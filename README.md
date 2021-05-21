@@ -1,5 +1,5 @@
 # FractalDB Pretrained ViT
-This repo is the official implementation of ["Can Vision Transformers Learn without Natural Images?"](https://arxiv.org/abs/2103.13023) and contains a Pre-training and Fine-tuning in Python/PyTorch. The repo is based on the [timm](https://github.com/rwightman/pytorch-image-models) and [DeiT](https://github.com/facebookresearch/deit).
+This repo is the official implementation of ["Can Vision Transformers Learn without Natural Images?"](https://arxiv.org/abs/2103.13023) and contains a Pre-training and Fine-tuning in Python/PyTorch. The repo is based on the [FractalDB-Pretrained-ResNet-PyTorch](https://github.com/hirokatsukataoka16/FractalDB-Pretrained-ResNet-PyTorch), [timm](https://github.com/rwightman/pytorch-image-models), and [DeiT](https://github.com/facebookresearch/deit).
 
 ## Summary
 We clarify that FractalDB pre-trained ViT can achieve a competitive validation accuracy with ImageNet pre-trained ViT. FractalDB consist of automatically generated image patterns and their labels based on a mathematical formula.
