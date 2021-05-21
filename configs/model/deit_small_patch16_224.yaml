@@ -1,0 +1,6 @@
+# @package _group_
+_target_: timm.models.create_model
+model_name: deit_small_patch16_224
+pretrained: False
+drop_rate: 0.0
+drop_path_rate: 0.1
