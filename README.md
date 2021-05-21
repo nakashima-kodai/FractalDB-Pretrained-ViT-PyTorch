@@ -33,7 +33,7 @@ We clarify that FractalDB pre-trained ViT can achieve a competitive validation a
 Download FractalDB from https://hirokatsukataoka16.github.io/Pretraining-without-Natural-Images/#dataset. Set the downloaded FractalDB to any directory you want. Also, change the path of data.set.root in ```configs/data/fractal1k.yaml```.
 
 ## Pre-training
-Run the code ```pretrain.py``` to create a FractalDB pre-trained model.
+Run the code ```pretrain.py``` to create a FractalDB pre-trained model. We wrote a sample script in the ```scripts``` directory for your reference.
 ```
 python pretrain.py
 ```
@@ -49,9 +49,8 @@ epochs: end epoch
 ```
 
 
-
 ## Fine-tuning
-Run the code ```finetune.py``` to additionally train any image datasets.
+Run the code ```finetune.py``` to additionally train any image datasets. We wrote a sample script in the ```scripts``` directory for your reference.
 ```
 python finetune.py
 ```
