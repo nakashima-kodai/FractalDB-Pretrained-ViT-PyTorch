@@ -7,7 +7,7 @@ We clarify that FractalDB pre-trained ViT can achieve a competitive validation a
 
 ## Updates
 ***05/21/2021***
-* Pre-training & Fint-tuning codes
+* Pre-training & Fine-tuning codes
 
 
 ## Citation
