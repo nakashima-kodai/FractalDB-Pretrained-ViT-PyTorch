@@ -9,6 +9,9 @@ We clarify that FractalDB pre-trained ViT can achieve a competitive validation a
 ***05/21/2021***
 * Pre-training & Fine-tuning codes
 
+***06/01/2021***
+* Downloadable pre-training models [[Link](https://drive.google.com/drive/folders/1r2e0Iel_DpKlW6zDI5Q_8ZfifS320W3O?usp=sharing)]
+
 
 ## Citation
 ```bibtex
@@ -38,7 +41,7 @@ Run the code ```pretrain.py``` to create a FractalDB pre-trained model. We wrote
 python pretrain.py
 ```
 
-The pre-trained models will be shared within the next week.
+Our pre-trained models are available in this [[Link](https://drive.google.com/drive/folders/1r2e0Iel_DpKlW6zDI5Q_8ZfifS320W3O?usp=sharing)]
 
 These are important parameters in pre-training. If you want to use a dataset that is not in the ```configs/data``` directory, you need to define it in cifar10.yaml. For more information on how to use Hydra, please refer to its [Hydra official page](https://hydra.cc/docs/intro/#:~:text=Hydra%20is%20an%20open%2Dsource,files%20and%20the%20command%20line.).
 ```
