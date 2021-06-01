@@ -6,11 +6,11 @@ We clarify that FractalDB pre-trained ViT can achieve a competitive validation a
 ![acc_transition](figures/acc_transition.png)
 
 ## Updates
-***05/21/2021***
-* Pre-training & Fine-tuning codes
-
 ***06/01/2021***
 * Downloadable pre-training models [[Link](https://drive.google.com/drive/folders/1r2e0Iel_DpKlW6zDI5Q_8ZfifS320W3O?usp=sharing)]
+
+***05/21/2021***
+* Pre-training & Fine-tuning codes
 
 
 ## Citation
